@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 import hashlib
 
-from .base import DocumentProcessor
+from src.document_processing.base import DocumentProcessor
 
 logger = logging.getLogger(__name__)
 
