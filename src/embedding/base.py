@@ -38,6 +38,7 @@ class BaseEmbedder(ABC):
     
     @abstractmethod
     def embed_chunks(self, chunks: List[Chunk]) -> List[EmbeddingResult]:
+        pass
     
     @abstractmethod
     def embed_query(self, query: str) -> np.ndarray:
