@@ -1,10 +1,6 @@
 from typing import List, Dict, Any, Optional
-import numpy as np
 import logging
-import time
 import os
-from datetime import datetime
-from tqdm import tqdm
 from google import genai
 
 from src.chunking.base import Chunk
